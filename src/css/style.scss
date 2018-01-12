@@ -33,11 +33,9 @@ form,
 	padding: 5px 15px 20px;
 	background-color: #fff;
 	border: 4px solid #333;
-	//color: #fff;
 	overflow: hidden;
 	h2 {
 		margin: 5px 0 12px;
-		//padding: 0 12px;
 		text-transform: uppercase;
 		cursor: pointer;
 	}
@@ -48,7 +46,6 @@ form,
 		padding: 15px 0;
 		border: none;
 		border-bottom: solid 1px #ccc;
-		//box-shadow: 0 0 1px #dcdcdc;
 		font-size: 18px;
 		input, textarea {
 			margin: 0 40px 0 10px;
@@ -119,6 +116,7 @@ form#addMarker {
 		background-color: #fff;
 		border: 3px solid #333;
 		color: #333;
+		text-align: left;
 		#locationThumb {
 			margin: 0 0 10px 20px;
 			float: right;

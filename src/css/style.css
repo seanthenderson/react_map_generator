@@ -97,7 +97,8 @@ form#addMarker .infowindow-preview {
   padding: 20px;
   background-color: #fff;
   border: 3px solid #333;
-  color: #333; }
+  color: #333;
+  text-align: left; }
   form#addMarker .infowindow-preview #locationThumb {
     margin: 0 0 10px 20px;
     float: right; }
