@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import './style.css';
+import './css/style.css';
 import Mapsettings from './components/Mapsettings.js';
 import Addmarker from './components/Addmarker.js';
 
