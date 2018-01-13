@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Map from './Map.js';
 
 class Mapcontainer extends Component {
 	render() {
@@ -10,7 +11,7 @@ class Mapcontainer extends Component {
 					<div class="menu-section first"></div>
 				</div>
 				
-				<div id="map"></div>
+				<Map />
 			</div>
 		)
 	}
