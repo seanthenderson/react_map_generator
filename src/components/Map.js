@@ -10,8 +10,8 @@ const style = {
 class MapWrapper extends Component {
 	render() {
 		return (
-			<Map i
-				d="map" 
+			<Map 
+			id="map" 
 				style={style}
 				google={this.props.google} 
 				zoom={2}
