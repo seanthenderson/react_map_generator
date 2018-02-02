@@ -18,7 +18,7 @@ class Mapform extends Component {
 	} 
 	render() {
 		return (
-			<form id="mapSettings">
+			<form className="mapSettings">
 				<h2><i class="fa fa-plus-circle" aria-hidden="true"></i> Map Settings</h2>
 				
 				<fieldset>

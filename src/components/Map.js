@@ -4,14 +4,13 @@ import {Map, InfoWindow, Marker, GoogleApiWrapper} from 'google-maps-react';
 const style = {
   width: '70%',
   height: '600px',
-  display: 'inline-block',
 }
 
 class MapWrapper extends Component {
 	render() {
 		return (
 			<Map 
-			id="map" 
+				id="map" 
 				style={style}
 				google={this.props.google} 
 				zoom={2}
@@ -20,8 +19,10 @@ class MapWrapper extends Component {
           lng: -88.081807
         }}
 			>
-				<Marker onClick={this.onMarkerClick}
-		                name={'Current location'} />
+				<Marker 
+					onClick={this.onMarkerClick}
+		      name={'Current location'} 
+				/>
 			</Map>
 		)
 	}

@@ -1,15 +1,3 @@
-body {
-  background-color: #999;
-  font-family: Arial, sans-serif; }
-
-a {
-  color: #0091d8;
-  text-decoration: none; }
-  a:visited {
-    color: #039BE5; }
-  a:hover {
-    text-decoration: underline; }
-
 form,
 #getCode {
   max-width: 90%;
@@ -255,7 +243,7 @@ form#addMarker .infowindow-preview {
           font-size: 23px; } }
     #map-wrapper .infowindow p {
       line-height: 26px; }
-  #map-wrapper #map {
+  /* #map-wrapper #map {
     width: 78%;
     height: 500px;
     display: inline-block;
@@ -269,7 +257,7 @@ form#addMarker .infowindow-preview {
         height: 500px; } }
     @media only screen and (max-width: 400px) {
       #map-wrapper #map {
-        height: 300px; } }
+        height: 300px; } } */
 
 .infowindow img,
 .infowindow-preview img {
