@@ -1,17 +1,13 @@
 import React, { Component } from 'react';
+import styled from 'styled-components';
 import {Map, InfoWindow, Marker, GoogleApiWrapper} from 'google-maps-react';
-
-const style = {
-  width: '70%',
-  height: '600px',
-}
 
 class MapWrapper extends Component {
 	render() {
 		return (
 			<Map 
 				id="map" 
-				style={style}
+				//style={style}
 				google={this.props.google} 
 				zoom={2}
 				initialCenter={{
